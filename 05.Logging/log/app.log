@@ -1,0 +1,24 @@
+2025-11-06 16:36:15,333 | INFO | log_demo2.py:26 | 程序启动成功
+2025-11-06 16:36:15,333 | WARNING | log_demo2.py:27 | 内存使用率超过 80%
+2025-11-06 16:36:15,333 | ERROR | log_demo2.py:31 | 除法错误
+Traceback (most recent call last):
+  File "d:\Min\Projects\VSCodeProjects\01.Useful_Tools\05.Logging\log_demo2.py", line 29, in <module>
+    1 / 0
+ZeroDivisionError: division by zero
+2025-11-06 16:36:15,334 | CRITICAL | log_demo2.py:32 | 服务器连接中断！
+2025-11-06 16:38:11,524 | INFO | log_demo2.py:33 | 程序启动成功（终端和文件都记录）
+2025-11-06 16:38:11,524 | WARNING | log_demo2.py:34 | 内存使用率超过 80%（终端和文件都记录）
+2025-11-06 16:38:11,524 | ERROR | log_demo2.py:38 | 除法错误
+Traceback (most recent call last):
+  File "d:\Min\Projects\VSCodeProjects\01.Useful_Tools\05.Logging\log_demo2.py", line 36, in <module>
+    1 / 0
+ZeroDivisionError: division by zero
+2025-11-06 16:38:11,524 | CRITICAL | log_demo2.py:39 | 服务器连接中断！（终端和文件都记录）
+2025-11-06 16:38:24,237 | INFO | log_demo2.py:33 | 程序启动成功（终端和文件都记录）
+2025-11-06 16:38:24,237 | WARNING | log_demo2.py:34 | 内存使用率超过 80%（终端和文件都记录）
+2025-11-06 16:38:24,237 | ERROR | log_demo2.py:38 | 除法错误
+Traceback (most recent call last):
+  File "d:\Min\Projects\VSCodeProjects\01.Useful_Tools\05.Logging\log_demo2.py", line 36, in <module>
+    1 / 0
+ZeroDivisionError: division by zero
+2025-11-06 16:38:24,238 | CRITICAL | log_demo2.py:39 | 服务器连接中断！（终端和文件都记录）
